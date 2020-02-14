@@ -3,7 +3,7 @@ class DateHelper {
   constructor() {
     throw new Error('DateHelper nao pode ser instanciada!');
   }
-  
+
   static dataPTexto(data) {
     return `${data.getDate()}/${data.getMonth() + 1}/${data.getFullYear()}`;
   }
